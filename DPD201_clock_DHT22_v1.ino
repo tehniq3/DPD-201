@@ -472,7 +472,7 @@ if (nivel == 6)  // day in week adjust
   
 if (digitalRead(meniu) == LOW)
   {
-  nivel = 20;
+  nivel = 7;
   mop();
   delay(500);
   }
@@ -503,7 +503,15 @@ if (zz < 0) zz = 6;
 //mop();
 }  // end nivel = 6; 
 
-
+if (nivel == 7)
+{ 
+ // January 21, 2014 at 3am you would call:
+ rtc.adjust(DateTime(2000+yy, ll, dd, hh, mm, 0));
+ //setDS3231time(0, mm, hh, zz, dd, ll, yy);
+ nivel = 20;   
+}
+  
+  
 if (nivel == 20)
 {
 mop();
