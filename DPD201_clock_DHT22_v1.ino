@@ -429,7 +429,7 @@ if (digitalRead(meniu) == LOW)
 
 String text12 = "";
 text12 = text12 + "Day set: ";
-text12 = text12 + ll/10 + ll%10;
+text12 = text12 + dd/10 + dd%10;
 text12 = text12 + "                             ";
 
 for (int i = 0; i < text12.length(); i++)
