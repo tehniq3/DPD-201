@@ -5,5 +5,5 @@ VFD display: Datecs DPD-201 v.2.4/2004
 
 ![clock](https://github.com/tehniq3/DPD-201/blob/main/DPD-201_clock_Arduino_schematic.png)
 
-![video: https://youtu.be/EjD9W7SBXt0](https://youtu.be/EjD9W7SBXt0)
+video: https://youtu.be/EjD9W7SBXt0
 
