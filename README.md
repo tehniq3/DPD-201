@@ -1,5 +1,5 @@
 # DPD-201
-VFD display: Datecs DPD-201 v.2.4/2004
+VFD display: Datecs DPD-201 v.2.4/2002
 ![info](https://1.bp.blogspot.com/-kT_3z2Z9770/YOlTVt5NmzI/AAAAAAAAemY/hRmWxikQQG0CvGLZYweZi5H0WCTVRlXwgCLcBGAsYHQ/s385/info_datecs_DPD-201.png)
 
 article: https://nicuflorica.blogspot.com/2021/07/afisaj-vfd-modul-datecs-dpd-201.html
