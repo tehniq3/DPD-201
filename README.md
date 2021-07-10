@@ -1,6 +1,8 @@
 # DPD-201
 VFD display: Datecs DPD-201 v.2.4/2004
 
+articol: https://nicuflorica.blogspot.com/2021/07/afisaj-vfd-modul-datecs-dpd-201.html
+
 ![niq_ro's clock](https://1.bp.blogspot.com/-Z7sEuieB6hs/YOlZRkWuYTI/AAAAAAAAeng/yNdaNIRTbFQPLvEmgFVZWlTOil2qd2ALwCLcBGAsYHQ/s596/ceas1_general.png)
 
 ![test schematic](https://github.com/tehniq3/DPD-201/blob/main/DPD-201_Arduino_schematic.png)
