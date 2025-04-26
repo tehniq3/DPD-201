@@ -11,6 +11,7 @@
  * ver.0 - changed for Datecs DPD-201 (firmware 2.4/2004) - Craiova, 7.2021
  * ver.0a - add day name
  * ver.1 - add clock adjust (using 3 buttons: menu/bext, increase (+), decrease (-)
+ * ver.1a - no flicker after long time, thanks to mihaiaurul from elforum for correction
  */
 
 #include <SoftwareSerial.h>
@@ -522,8 +523,8 @@ nivel = 0;
 }  // end last level & go to clock level
 
 
-
-if (millis() - tpreglaj > tpreglajmax)
+if(nivel != 0 &&  millis() - tpreglaj > tpreglajmax)  // va intra aici doar dacă nu este in functionare normala
+//if (millis() - tpreglaj > tpreglajmax)
 {
 mop();
 nivel = 0; 
